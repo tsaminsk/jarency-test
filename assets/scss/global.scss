@@ -1,0 +1,108 @@
+@import './variables';
+@import './mixins';
+
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $grey1;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.9px;
+    color: #000;
+    margin-left: -1.5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.5s $mainEaseing, border 0.5s $mainEaseing, background 0.5s $mainEaseing, opacity 0.5s $mainEaseing;
+}
+
+.is-no-scroll {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.h-hide {
+    display: none !important;
+}
+
+.container {
+    padding: 0 95px 0 30px;
+
+    @include mq(1059) {
+        padding: 0 20px;
+    }
+
+    @include mq(767) {
+        padding: 0 16px;
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.is-children_dib {
+    font-size: 0;
+
+    > div {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 16px;
+    }
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
