@@ -9,7 +9,9 @@
 
 <script>
 export default {
-
+    head: {
+        title: "Support"
+    },
 }
 </script>
 

@@ -16,6 +16,9 @@
 
 <script>
 export default {
+    head: {
+        title: "Home"
+    },
     data() {
         return {
             params: this.$store.getters.setUserParams
