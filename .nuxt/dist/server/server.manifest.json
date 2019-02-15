@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "7289f254044fcc274110.js": "7289f254044fcc274110.js",
+    "7af50e6b92cede6d0ff9.js": "7af50e6b92cede6d0ff9.js",
+    "8e01ba18ab7b9093f5a6.js": "8e01ba18ab7b9093f5a6.js",
+    "abf2788a5c8a563530ad.js": "abf2788a5c8a563530ad.js",
+    "e66bf204bc8f43f38e7d.js": "e66bf204bc8f43f38e7d.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "7289f254044fcc274110.js": "7289f254044fcc274110.js.map",
+    "7af50e6b92cede6d0ff9.js": "7af50e6b92cede6d0ff9.js.map",
+    "8e01ba18ab7b9093f5a6.js": "8e01ba18ab7b9093f5a6.js.map",
+    "abf2788a5c8a563530ad.js": "abf2788a5c8a563530ad.js.map",
+    "e66bf204bc8f43f38e7d.js": "e66bf204bc8f43f38e7d.js.map",
+    "server.js": "server.js.map"
+  }
+}
